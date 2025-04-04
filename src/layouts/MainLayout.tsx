@@ -1,5 +1,4 @@
 import React from 'react';
-import { Box, Container, CssBaseline } from '@mui/material';
 import Navbar from '../components/Navbar';
 
 interface MainLayoutProps {
@@ -8,13 +7,17 @@ interface MainLayoutProps {
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <CssBaseline />
+    <div style={{ 
+      display: 'flex', 
+      flexDirection: 'column', 
+      minHeight: '100vh',
+      width: '100%'
+    }}>
       <Navbar />
-      <Container component="main">
+      <main style={{ flex: 1, width: '100%' }}>
         {children}
-      </Container>
-    </Box>
+      </main>
+    </div>
   );
 };
 

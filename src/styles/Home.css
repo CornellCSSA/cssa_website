@@ -1,7 +1,7 @@
 /* Main container styles */
 .home-container {
   width: 100%;
-  min-height: 100vh;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* Hero section styles */
@@ -33,9 +33,9 @@
 .hero-content {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 57%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
   width: 90%;
   max-width: 1200px;
   color: white;
@@ -44,26 +44,31 @@
 
 /* Chinese title styles */
 .hero-title-chinese {
-  font-size: 3.5rem;
+  font-size: 60px;
   font-weight: 700;
-  margin-bottom: 1rem;
-  letter-spacing: 0.05em;
-  line-height: 1.2;
+  margin: 0; /* Remove all margins */
+  line-height: 1.4;
 }
 
 /* English title styles */
 .hero-title-english {
-  font-size: 5rem;
+  font-size: 60px;
   font-weight: 700;
-  margin-bottom: 1rem;
-  letter-spacing: 0.02em;
+  margin: 0; /* Remove all margins */
+  line-height: 1.4;
 }
 
 /* Subtitle styles */
 .hero-subtitle {
-  font-size: 1.5rem;
+  font-size: 27px;
   font-weight: 400;
-  margin-top: 0.5rem;
+  margin: 0; /* Remove all margins */
+  line-height: 1.4;
+}
+
+/* Add spacing between elements in hero-content */
+.hero-content > * + * {
+  margin-top: 0.5rem; /* Add small margin between siblings */
 }
 
 /* Responsive styles */
@@ -93,5 +98,4 @@
   .hero-subtitle {
     font-size: 1rem;
   }
-}
-
+} 

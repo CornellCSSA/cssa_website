@@ -18,6 +18,19 @@ const Home: React.FC = () => {
         </div>
       </div>
 
+      <div className="about-section">
+        <div className="about-title">
+          <h1 className='about-title-text'>关于CSSA</h1>
+        </div>
+        <div className="about-content">
+          <p className='about-content-text'>
+            康奈尔大学中国学生学者联合会，英文简称Cornell CSSA，
+            是由康奈尔中国学生群体组成的非盈利性互助服务组织，
+            是康奈尔大学唯一受中国驻美使馆认证的社团。
+          </p>
+        </div>
+      </div>
+
       {/* Additional content for the home page would go here */}
     </div>
   );

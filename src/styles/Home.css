@@ -71,6 +71,49 @@
   margin-top: 0.5rem; /* Add small margin between siblings */
 }
 
+/* About section styles */
+.about-section {
+  display: flex;
+  flex-direction: row;
+  height: 53vh;
+  width: 100%;
+}
+
+.about-title {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: #812B26;
+  padding: 2rem;
+}
+
+.about-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: #F5F5F5;
+  padding: 2rem;
+}
+
+.about-title-text {
+  position: relative;
+  left: 40%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.about-content-text {
+  position: relative;
+  left: 35%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  line-height: 1.8;
+  font-family: "Helvetica";
+  width: 435px;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .hero-title-chinese {
@@ -83,6 +126,18 @@
 
   .hero-subtitle {
     font-size: 1.2rem;
+  }
+
+  .about-section {
+    flex-direction: column;
+  }
+
+  .about-title, .about-content {
+    height: 50vh;
+  }
+
+  .about-title-text, .about-content-text {
+    left: 50%;
   }
 }
 
@@ -97,5 +152,9 @@
 
   .hero-subtitle {
     font-size: 1rem;
+  }
+
+  .about-title-text {
+    font-size: 2rem;
   }
 } 

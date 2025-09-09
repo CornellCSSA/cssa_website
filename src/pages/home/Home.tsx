@@ -1,8 +1,9 @@
-import React from 'react';
-import '../styles/Home.css'; // Importing from the styles folder
-import cover2 from '../assets/cover2.jpg';
+import './Home.css'; // Importing from the styles folder
 
-const Home: React.FC = () => {
+// Importing images
+import cover2 from '../../assets/cover2.jpg';
+
+export default function Home () {
   return (
     <div className="home-container">
       {/* Hero Section with Background Image */}
@@ -34,5 +35,3 @@ const Home: React.FC = () => {
     </div>
   );
 };
-
-export default Home;

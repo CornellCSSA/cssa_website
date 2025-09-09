@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Home.css'; // Importing from the styles folder
-import coverAcapella from '../assets/cover-acappella.jpg';
-import coverNewYear from '../assets/cover-newyear.jpg';
+import cover2 from '../assets/cover2.jpg';
 
 const Home: React.FC = () => {
   return (
@@ -9,7 +8,7 @@ const Home: React.FC = () => {
       {/* Hero Section with Background Image */}
       <div className="hero-section">
         <div className="hero-background">
-          <img src={coverNewYear} alt="Cover" className="cover-img" />
+          <img src={cover2} alt="Cover" className="cover-img" />
         </div>
         <div className="hero-content">
           <h1 className="hero-title-chinese">康奈尔大学中国学生学者联合会</h1>

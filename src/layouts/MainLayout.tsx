@@ -14,7 +14,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
       width: '100%'
     }}>
       <Navbar />
-      <main style={{ flex: 1, width: '100%' }}>
+      <main style={{ flex: 1, width: '100%', paddingTop: '90px' }}>
         {children}
       </main>
     </div>

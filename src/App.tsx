@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
 import Home from './pages/home/Home';
 import Guide from './pages/guide/Guide';
+import Events from './pages/events/Events';
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/guide" element={<Guide />} />
+          <Route path="/events" element={<Events />} />
         </Routes>
       </MainLayout>
     </Router>
@@ -18,3 +20,4 @@ function App() {
 }
 
 export default App;
+

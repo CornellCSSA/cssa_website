@@ -38,6 +38,14 @@ button {
   gap: 3.5rem;
 }
 
+.event-card-left {
+  flex-direction: row;
+}
+
+.event-card-right {
+  flex-direction: row-reverse;
+}
+
 .event-image {
   width: 480px;
   height: 310px;

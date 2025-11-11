@@ -3,4 +3,5 @@ export interface EventDataObject {
   time: string;
   description: string;
   image: string;
+  orientation: 'left' | 'right';
 }

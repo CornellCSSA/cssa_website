@@ -1,0 +1,45 @@
+h2 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #812B26;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    font-size: 14px;
+    background-color: #812B26;
+    color: white;
+    border: none;
+    padding: 0.6rem 2.2rem;
+}
+
+.events-container {
+    background-color: #F5F5F5;
+}
+
+.event-card {
+  width: 1200px;
+  height: 390px;
+  background-color: white;
+  display: flex;
+  margin: 0 auto;
+  padding: 2rem 7rem;
+  gap: 3.5rem;
+}
+
+.event-image {
+  width: 480px;
+  height: 310px;
+  object-fit: cover;
+}

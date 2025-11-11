@@ -5,3 +5,10 @@ export interface EventDataObject {
   image: string;
   orientation: 'left' | 'right';
 }
+
+export interface UpcomingEventDataObject {
+  title: string;
+  time: string;
+  location: string;
+  image: string;
+}

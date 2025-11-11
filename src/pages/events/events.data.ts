@@ -1,5 +1,15 @@
+import upcomingEventZuqiu from '../../assets/events-upcoming-zuqiu.png';
 import eventsZhongqiu from '../../assets/events-zhongqiu.jpeg';
-import { EventDataObject } from './event.type';
+import { EventDataObject, UpcomingEventDataObject } from './event.type';
+
+export const upcomingEventData: UpcomingEventDataObject[] = [
+  {
+    title: '运动季 -- 足球赛',
+    time: "2025/4/20",
+    location: 'Hu Shih Hall 足球场',
+    image: upcomingEventZuqiu,
+  },
+];
 
 export const eventsData: EventDataObject[] = [
   {

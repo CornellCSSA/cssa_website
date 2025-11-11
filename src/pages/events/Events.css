@@ -1,19 +1,7 @@
-h2 {
-    font-size: 38px;
-    font-weight: bold;
-    color: #8c1e1f;
-    margin-bottom: 0.5rem;
-}
-
 h5 {
-    font-size: 20px;
     font-weight: normal;
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
-
-p {
-    font-size: 16px;
 }
 
 button {
@@ -49,7 +37,6 @@ button {
 
 .upcoming-event-card h5 {
     font-size: 16px;
-    font-weight: normal;
 }
 
 .upcoming-event-card p {
@@ -74,8 +61,23 @@ button {
   flex-direction: row-reverse;
 }
 
-.event-image {
+.event-card img {
   width: 480px;
   height: 310px;
   object-fit: cover;
+}
+
+.event-card h3 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #8c1e1f;
+    margin-bottom: 0.5rem;
+}
+
+.event-card h5 {
+    font-size: 20px;
+}
+
+.event-card p {
+    font-size: 16px;
 }

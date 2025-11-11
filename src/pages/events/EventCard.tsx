@@ -4,7 +4,7 @@ export default function EventCard({ eventData }: { eventData: EventDataObject })
   return (
     <div className={`event-card event-card-${eventData.orientation}`}>
         <div className="event-content">
-            <h2 className="event-title">{eventData.title}</h2>
+            <h3 className="event-title">{eventData.title}</h3>
             <h5 className="event-time">时间：{eventData.time}</h5>
             <p className="event-description">{eventData.description}</p>
             <button className="event-button">往期回顾</button>

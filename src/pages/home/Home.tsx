@@ -2,6 +2,12 @@ import './Home.css'; // Importing from the styles folder
 
 // Importing images
 import cover2 from '../../assets/cover2.jpg';
+import homeEvent1 from '../../assets/home-events-1.jpg';
+import homeEvent2 from '../../assets/home-events-2.jpg';
+import homeEvent3 from '../../assets/home-events-3.jpg';
+import homeEvent4 from '../../assets/home-events-4.jpg';
+import homeEvent5 from '../../assets/home-events-5.jpg';
+import homeEvent6 from '../../assets/home-events-6.jpg';
 
 export default function Home () {
   return (
@@ -31,7 +37,43 @@ export default function Home () {
         </div>
       </div>
 
-      {/* Additional content for the home page would go here */}
+      <div className="events-section">
+        <div className="events-header">
+          <h1 className='events-title-text'>活动</h1>
+        </div>
+        <div className="events-description">
+          <p className='events-content-text'>
+            我们致力于促进康奈尔中国学生群体之间的交流，弘扬中华文化，每年举办如中秋嘉年华、春晚等文化类活动，好声音、运动季等娱乐类活动，以及求职、接机等服务类活动。
+          </p>
+        </div>
+
+        {/* Events Image Grid Section */}
+        <div className="events-grid-section">
+          <div className="events-grid">
+            <div className="event-image-wrapper">
+              <img src={homeEvent1} alt="Event 1" className="event-image" />
+            </div>
+            <div className="event-image-wrapper">
+              <img src={homeEvent2} alt="Event 2" className="event-image" />
+            </div>
+            <div className="event-image-wrapper">
+              <img src={homeEvent3} alt="Event 3" className="event-image" />
+            </div>
+            <div className="event-image-wrapper">
+              <img src={homeEvent4} alt="Event 4" className="event-image" />
+            </div>
+            <div className="event-image-wrapper">
+              <img src={homeEvent5} alt="Event 5" className="event-image" />
+            </div>
+            <div className="event-image-wrapper">
+              <img src={homeEvent6} alt="Event 6" className="event-image" />
+            </div>
+          </div>
+        </div>
+        <button className="events-button">
+          了解更多
+        </button>
+      </div>
     </div>
   );
 };

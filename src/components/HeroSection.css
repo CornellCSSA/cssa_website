@@ -1,0 +1,80 @@
+/* Hero section styles */
+.hero-section-container {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+}
+
+/* Background image container */
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Red transparent overlay */
+.hero-background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(140, 30, 31, 0.6); /* Red with 60% opacity */
+  z-index: 1;
+}
+
+/* Hero image */
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Content overlay styles */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 2;
+}
+
+/* Hero title styles */
+.hero-title {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hero-section-container {
+    height: 300px;
+  }
+
+  .hero-title {
+    font-size: 40px;
+  }
+
+  .hero-content {
+    left: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section-container {
+    height: 250px;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+}
+

@@ -7,9 +7,17 @@ h5 {
 button {
     font-size: 14px;
     background-color: #8c1e1f;
+    border: 1px solid #8c1e1f;
     color: white;
     border: none;
     padding: 0.6rem 2.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid #8c1e1f;
+    background-color: white;
+    color: #8c1e1f;
 }
 
 .upcoming-event-card {

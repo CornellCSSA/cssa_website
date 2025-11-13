@@ -8,7 +8,7 @@ export default function UpcomingEventCard({ upcomingEventData }: { upcomingEvent
                 <h3>{upcomingEventData.title}</h3>
                 <h5>{upcomingEventData.time}</h5>
                 <p>{upcomingEventData.location}</p>
-                <button className="upcoming-event-button">我想参加！</button>
+                <button className="upcoming-event-button" onClick={() => window.open(upcomingEventData.link, '_blank')}>我想参加！</button>
             </div>
         </div>
     );

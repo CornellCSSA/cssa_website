@@ -1,0 +1,54 @@
+.social-media-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    background-color: white;
+}
+
+.social-media-content {
+    padding-left: 10rem;
+}
+
+.social-media-container h2 {
+    font-size: 40px;
+    color: #8c1e1f;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.social-media-content p {
+    margin: 0.5rem 0;
+}
+
+.social-label {
+    color: #8c1e1f;
+    font-weight: bold;
+}
+
+.group-photo-container {
+    position: relative;
+    width: 700px;
+    flex-shrink: 0;
+}
+
+.group-photo-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(140, 30, 31, 0.2);
+    pointer-events: none;
+}
+
+.group-photo-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}

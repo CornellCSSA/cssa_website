@@ -1,0 +1,14 @@
+.guide-heading {
+    font-size: 40px;
+    color: #8c1e1f;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.guide-cover-img {
+    width: 400px; /* 图片的宽度 */
+    height: auto; /* 自适应高度 */
+    display: block; /* 块级元素（只有加上这一条才能用下面的居中）*/
+    margin: 0 auto; /* 居中 */
+    margin-bottom: 3rem; /* 下边距 */
+}

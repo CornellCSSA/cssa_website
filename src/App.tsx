@@ -4,6 +4,7 @@ import Home from './pages/home/Home';
 import Guide from './pages/guide/Guide';
 import Events from './pages/events/Events';
 import Contact from './pages/contact/Contact';
+import About from './pages/about/About';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/guide" element={<Guide />} />
           <Route path="/events" element={<Events />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </MainLayout>
     </Router>

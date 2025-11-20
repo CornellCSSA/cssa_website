@@ -14,7 +14,7 @@ export default function Home () {
     <div className="home-container">
       {/* Hero Section with Background Image */}
       <div className="hero-section">
-        <div className="hero-background">
+        <div className="home-hero-background">
           <img src={cover2} alt="Cover" className="cover-img" />
         </div>
         <div className="hero-content">
